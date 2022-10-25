@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Copmpatible" content="ie=edge">
+
+  <title>Example</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+
+    #btn_plus {
+      width: 200px;
+      border: 2px solid #000;
+      font-size: 15px;
+      background-color: red;
+    }
+
+    #root p {
+      width: 200px;
+      font-size: 20px;
+      text-align: center;
+      color: #fff;
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <button type="button" id="btn_plus">+</button>
+  </div>
+
+  <!-- start development version -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <!-- end development version -->
+
+  <script type="text/javascript">
+    console.log(React);
+    console.log(ReactDOM);
+
+    // const root = document.querySelector('#root');
+    // const btn_plus = document.querySelector('#btn_plus');
+
+    // root.innerHTML = '<p>init: 0</p>';
+
+    // let i = 0;
+
+    // btn_plus.addEventListener('click', () => {
+    //   root.innerHTML = `<p>init: ${++i}</p>`;
+    // });
+
+    // const component = {
+    //   message: 'init',
+    //   count: 0,
+    //   // 이 데이터들은 값이 바뀔 수 있음.
+    //   // 값이 바뀌면 component는 다른 값으로 render 되어야 함.
+
+    //   render() {
+    //     return `<p>${this.message} : ${this.count}</p>`;
+    //   }
+    // }
+
+    // function render(rootElement, component) {
+    //   // rootElement는 실제 DOM을 받겠쥬
+    //   rootElement.innerHTML = component.render();
+    // }
+
+    // // 초기화
+    // render(document.querySelector('#root'), component);
+
+    // document.querySelector('#btn_plus').addEventListener('click', () => {
+    //   component.message = 'update';
+    //   component.count = component.count + 1
+
+    //   render(document.querySelector('#root'), component);
+    // })
+
+    // 초기화 할 때랑 값이 바뀔 때 render를 해줘야됨
+
+
+
+
+
+    
+  </script>
+</body>
+</html>
